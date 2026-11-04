@@ -145,12 +145,12 @@ Write-Host " SOLVER CYBERTECH BASELINE DEPLOYMENT COMPLETE!     " -ForegroundCol
 Write-Host "====================================================" -ForegroundColor Cyan
 
 ```
-Technical Breakdown & Code Logic
-Idempotent Logic (if (-not ...)): Every object creation block uses conditional checks. This ensures the script can run repeatedly without throwing fatal errors or duplicating directory objects.
+# Technical Breakdown & Code Logic
+* **Idempotent Logic (if (-not ...)):** Every object creation block uses conditional checks. This ensures the script can run repeatedly without throwing fatal errors or duplicating directory objects.
 
-Error Handling ($ErrorActionPreference = "Stop"): Forces the script to halt immediately if any command encounters a critical failure, ensuring reliable logging and debugging.
+* **Error Handling ($ErrorActionPreference = "Stop"):** Forces the script to halt immediately if any command encounters a critical failure, ensuring reliable logging and debugging.
 
-WMI/CIM Integration (VSS): Interacts directly with the Win32_ShadowCopy WMI class to programmatically trigger system-accessible volume snapshots without GUI navigation dependencies.
+* **WMI/CIM Integration (VSS):** Interacts directly with the Win32_ShadowCopy WMI class to programmatically trigger system-accessible volume snapshots without GUI navigation dependencies.
 
 ## Author
 **Peter Okonkwo**  
