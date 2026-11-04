@@ -152,11 +152,8 @@ Error Handling ($ErrorActionPreference = "Stop"): Forces the script to halt imme
 
 WMI/CIM Integration (VSS): Interacts directly with the Win32_ShadowCopy WMI class to programmatically trigger system-accessible volume snapshots without GUI navigation dependencies.
 
-Author
-Peter Okonkwo
-
-Lead Engineer @ Solver Cybertech
-
-GitHub: github.com/solver113
-
-LinkedIn: peter-okonkwo-3b6610230
+## Author
+**Peter Okonkwo**  
+Lead Engineer @ Solver Cybertech  
+* GitHub: [github.com/solver113](https://github.com/solver113)  
+* LinkedIn: [Profile Link](https://www.linkedin.com/in/peter-okonkwo-3b6610230)
